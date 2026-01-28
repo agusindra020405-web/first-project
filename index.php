@@ -14,7 +14,7 @@ if ($result->rowCount() > 0) {
 
 $sql = "SELECT * FROM categories";
 $result = $conn->query($sql);
-
+// array untuk category
 $categories = [];
 
 if ($result->rowCount() > 0) {
